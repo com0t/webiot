@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng nhập</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+
+			
+			background: #b3b3b3;
+		}
+		table{
+			position: absolute;
+			background:#fff;
+			border:2px solid #262626;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			border-collapse: collapse;
+		}
+		tr:nth-child(1){
+			background:#003399;
+			font-size:18px;
+			color:#fff;
+			
+
+		}
+		tr:nth-child(1) td{
+			padding:8px;
+		}
+		tr:nth-child(4){
+			padding-top:10px;
+		}
+		table tr td{
+			height:30px;
+			padding-left:5px;
+			padding-right:15px;
+			font-weight: bold;
+		}
+		table tr td:nth-child(2){
+			padding: 3px;
+			padding-left: 10px;
+		}
+		table tr td input[type="text"],input[type="password"]{
+			border:1px solid black;
+			cursor:pointer;
+			height:25px;
+			padding-left:10px;
+
+		}
+		table tr td input[type="submit"]{
+			height:30px;
+			width: 90px;
+			border:none;
+			margin-top: 2px;
+			margin-bottom: 3px;
+			cursor:pointer;
+			font-weight: bold;
+			color:#fff;
+			background:rgba(0,0,0,1);
+		}
+		table tr td input[type="submit"]:hover{
+			background:#003399;
+		}
+	</style>
+</head>
+<body>
+	
+	<form action="" class="box">
+		<table border="1">
+			<tr>
+				<td colspan="2" align="center">ĐĂNG NHẬP </td>
+			</tr>
+			<tr>
+				<td>Tài khoản</td>
+				<td><input type="text" maxlength="50" size="32" placeholder="Username"></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu</td>
+				<td><input type="password" maxlength="32" size="32" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td colspan="2"align="center"><input type="submit" value="Đăng nhập"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

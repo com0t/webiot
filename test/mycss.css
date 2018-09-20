@@ -1,0 +1,16 @@
+.fixbody {width: 100%;}
+.fixsize {height: 204px;}
+.nav {
+  background-color: #26517C;
+  color: white;
+}
+.node {
+  background-color: #382F85;
+  color: white;
+}
+.charts {height:100% ;width: 49%;display:inline-block;margin-bottom:4px}
+@media screen and (max-width: 1300px) {
+  .fixsize {width: 100%;height: 400px;}
+  .charts {height: 50%;width: 100%;}
+}
+
